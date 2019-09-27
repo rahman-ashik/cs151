@@ -3,14 +3,16 @@
 
 using namespace std;  
 void printFun1(); // placing funtion prototype
-void printNum(int num);
+void printNum(double num);
 
 int main() 
 {
     printFun1(); // calling the function
     cout << "hello from main function"<<endl;
     printFun1(); // calling the function
-    printNum(3);
+    printNum(3); 
+    printNum(10); 
+    printNum(22.5); 
     return 0;
 }
 
@@ -20,7 +22,7 @@ void printFun1() // defining the function
     return;
 }
 
-void printNum(int num)
+void printNum(double num)
 {
     cout << "The value of the number is: " << num << endl;
 }
