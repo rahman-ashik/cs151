@@ -17,10 +17,11 @@ int arr2[5]= {6, 7, 8, 9, 10};
 int i=0;
 
 for (int i=0; i<5; i++)
-        { for (int j=0; j<5; j++)
+        { for (int j=0; j<5;)
             {int sum = arr1[i] + arr2[j];
               if (sum==9)
               cout << arr1[i] <<" + "<< arr2[j]<<" = "<< sum << "\n";}
+    
         }
 
 
