@@ -11,14 +11,13 @@ using namespace std;
 //==================================================> Will be Improvised with functions <============================================
 int main()
 {
-// Constants
-const int MIN_VALUE = 1; // Minimum die value
-const int MAX_VALUE = 10; // Maximum die value
+const int MIN_VALUE = 1; // Minimum Guess value
+const int MAX_VALUE = 10; // Maximum Guess value
 
 
 // Variables
-int Guess; // To hold the value of die #1
-int Secret; // To hold the value of die #2
+int Guess; // To hold the value of Guess Number
+int Secret; // To hold the value of Secret Number
 
 // Get the system time.
 unsigned seed = time(0);
