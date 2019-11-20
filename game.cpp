@@ -8,11 +8,26 @@
 #include <iostream>
 using namespace std;
 
+void showRules()
+{
+cout << endl;
+cout << endl;
+cout << endl;
+cout << " \t\t\t>>>>>>>>>>>>>>>>>> WELCOME <<<<<<<<<<<<<<<<<<" << endl;
+cout << " \t\t\tThis paragraph will explain the rules -------- " << endl;
+cout << " \t\t\t--------------------------------------------- " << endl;
+cout << " \t\t\t--------------------------------------------- " << endl;
+cout << " \t\t\t--------------------------paragraph ends here " << endl;
+cout << " \t\t\t>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<< " << endl;
+}
+
 int main(void)
 {
 // This is the array that shows up on the screen as a board 
 char myArray[4][4] = { {' ',' ',' ',' '}, {' ',' ',' ',' '},{' ',' ',' ',' '}, {' ',' ',' ',' '} };
-int width = 4, height = 4;
+// int width = 4, height = 4;
+
+showRules();
 
 //====================  This is the board   =====================//
 cout << " _ _ _ _ _ _ _ _ "<< endl;   
